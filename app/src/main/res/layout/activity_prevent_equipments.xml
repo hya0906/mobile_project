@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PreventEquipmentsActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <include
+            layout="@layout/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="코로나 방역 물품"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="30dp"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:background="@drawable/textview_customise"/>
+
+        <Button
+            android:id="@+id/Button1"
+            android:layout_width="284dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textview_customise"
+            android:layout_margin="20dp"
+            android:onClick="onClick"
+            android:text="방역 마스크"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/Button2"
+            android:layout_width="284dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textview_customise"
+            android:layout_margin="20dp"
+            android:onClick="onClick"
+            android:text="손 소독제"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/Button3"
+            android:layout_width="284dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textview_customise"
+            android:layout_margin="20dp"
+            android:onClick="onClick"
+            android:text="손 소독 티슈"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/Button4"
+            android:layout_width="284dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textview_customise"
+            android:layout_margin="20dp"
+            android:onClick="onClick"
+            android:text="살균 스프레이"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/Button5"
+            android:layout_width="284dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textview_customise"
+            android:layout_margin="20dp"
+            android:onClick="onClick"
+            android:text="휴대용 손 소독제"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/Button6"
+            android:layout_width="284dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textview_customise"
+            android:layout_margin="20dp"
+            android:onClick="onClick"
+            android:text="붙이는 체온계"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
